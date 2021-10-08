@@ -14,10 +14,12 @@ Public Class Form1
             Dim arguments() As String = Split(input)
             Dim command As String = arguments(0)
 
+            'print command'
             If command = "print" Then
                 MsgBox(arguments(1))
             End If
 
+            'variable command'
             If command = "var" Then
                 Dim variableName = arguments(1)
                 Dim variableValue = arguments(2)
@@ -25,15 +27,19 @@ Public Class Form1
                 Console.Out.WriteLine("storing " + variableName + ": " + variableValue)
             End If
 
+            'print variable command
             If command = "getvar" Then
                 Dim variableName = arguments(1)
                 Dim variableValue = variables(variableName)
                 MsgBox(variableValue)
             End If
 
+            'makes a beep command'
             If command = "beep" Then
                 Beep()
             End If
+
+            'exit command'
             If command = "exit" Then
                 End
             End If
