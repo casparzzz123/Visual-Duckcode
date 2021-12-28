@@ -5,3 +5,5 @@ And Commit if you want to fix or add something! (:
 
 ![image](https://user-images.githubusercontent.com/80700684/136236777-52d666ea-47a5-46fe-b1fd-43f07fdc2cb0.png)
 
+
+!THE VARIABELS ARE NOT WORKING!
